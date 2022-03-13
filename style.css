@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+*{
+    box-sizing: border-box;
+
+}
+body{
+    margin: 0;
+    background-color:hsl(217, 54%, 11%) ;
+    font-size:62.5%;
+}
+
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    width: 20%;
+    background-color: hsl(216, 50%, 16%);
+    padding: 1%;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 20px 8px 20px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-size:1rem;
+    
+}
+
+.lower{
+    margin-top:1.5rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top:2px solid hsl(215, 32%, 27%);
+    font-weight: 300;
+    font-family:font-family: 'Outfit', sans-serif; ;
+}
+
+h1{
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: 'Outfit', sans-serif;
+}
+h1:hover{
+    color:rgb(127, 246, 255);
+}
+p{
+    font-size: 1.4rem;
+    color:hsl(215, 51%, 70%)
+}
+.eth{
+    font-family: 'Outfit', sans-serif;
+    width: 100%;
+    margin-bottom:1rem;
+}
+.eth:after{
+    color:rgb(127, 246, 255);
+    content:" 0.014 ETH";
+}
+.clock{
+    margin-left: 10rem;
+    text-align: center;
+    color:hsl(215, 51%, 70%)
+}
+.clock:after{
+    content: " 3 days left";
+    margin-bottom:1rem;
+    
+}
+
+.main{
+    width:100%;
+    border-radius: .5rem;
+}
+.avatar{
+    width: 10%;
+    margin-top:1rem;
+}
+.name{
+    color:hsl(215, 51%, 70%);
+    margin-top:1rem;
+    margin-right:27%;
+    letter-spacing: .1rem;
+}
+.name b{
+    color:white;
+}
+.name b:hover{
+    color: rgb(127, 246, 255);
+}
+.imgContainer {
+    position: relative;
+    width: 100%;
+  }
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: .5rem;
+}
+.overlay {
+    border-radius: .5rem;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(127, 246, 255, 0.431);
+  }
+
+  
+  .imgContainer:hover .overlay {
+    opacity: 1;
+  }
+  div.text i{
+    font-size: 3rem;
+    position: absolute;
+    top: 43%;
+    left: 43%;
+  }
